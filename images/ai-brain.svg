@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>KaraAGI Brain</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="brainGradient">
+            <stop stop-color="#3a86ff" offset="0%"></stop>
+            <stop stop-color="#8338ec" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="circuitGradient">
+            <stop stop-color="#ff006e" offset="0%"></stop>
+            <stop stop-color="#8338ec" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Brain Outline -->
+        <path d="M400,120 C250,120 150,220 150,350 C150,480 250,580 400,580 C550,580 650,480 650,350 C650,220 550,120 400,120 Z" 
+              stroke="url(#brainGradient)" 
+              stroke-width="8" 
+              fill-opacity="0.1"
+              fill="url(#brainGradient)">
+            <animate attributeName="stroke-width" 
+                     values="8;12;8" 
+                     dur="3s" 
+                     repeatCount="indefinite" />
+        </path>
+        
+        <!-- Brain Lobes -->
+        <!-- Frontal Lobe -->
+        <path d="M400,150 C320,150 250,200 250,300 C250,400 320,450 400,450 C480,450 550,400 550,300 C550,200 480,150 400,150 Z" 
+              stroke="url(#brainGradient)" 
+              stroke-width="4" 
+              fill-opacity="0.05"
+              fill="url(#brainGradient)">
+        </path>
+        
+        <!-- Temporal Lobe Left -->
+        <path d="M250,300 C220,300 200,330 200,380 C200,430 220,460 250,460 C280,460 300,430 300,380 C300,330 280,300 250,300 Z" 
+              stroke="url(#brainGradient)" 
+              stroke-width="4" 
+              fill-opacity="0.05"
+              fill="url(#brainGradient)">
+        </path>
+        
+        <!-- Temporal Lobe Right -->
+        <path d="M550,300 C520,300 500,330 500,380 C500,430 520,460 550,460 C580,460 600,430 600,380 C600,330 580,300 550,300 Z" 
+              stroke="url(#brainGradient)" 
+              stroke-width="4" 
+              fill-opacity="0.05"
+              fill="url(#brainGradient)">
+        </path>
+        
+        <!-- Parietal Lobe -->
+        <path d="M400,450 C320,450 250,480 250,520 C250,560 320,580 400,580 C480,580 550,560 550,520 C550,480 480,450 400,450 Z" 
+              stroke="url(#brainGradient)" 
+              stroke-width="4" 
+              fill-opacity="0.05"
+              fill="url(#brainGradient)">
+        </path>
+        
+        <!-- Neural Connections -->
+        <!-- Central Node -->
+        <circle cx="400" cy="350" r="15" fill="url(#circuitGradient)">
+            <animate attributeName="r" 
+                     values="15;20;15" 
+                     dur="2s" 
+                     repeatCount="indefinite" />
+            <animate attributeName="opacity" 
+                     values="1;0.8;1" 
+                     dur="2s" 
+                     repeatCount="indefinite" />
+        </circle>
+        
+        <!-- Neural Paths -->
+        <!-- Path 1 -->
+        <path d="M400,350 C350,300 300,320 250,300" 
+              stroke="url(#circuitGradient)" 
+              stroke-width="3" 
+              stroke-dasharray="5,5"
+              fill="none">
+            <animate attributeName="stroke-dashoffset" 
+                     values="0;20" 
+                     dur="2s" 
+                     repeatCount="indefinite" />
+        </path>
+        
+        <!-- Path 2 -->
+        <path d="M400,350 C450,300 500,320 550,300" 
+              stroke="url(#circuitGradient)" 
+              stroke-width="3" 
+              stroke-dasharray="5,5"
+              fill="none">
+            <animate attributeName="stroke-dashoffset" 
+                     values="0;20" 
+                     dur="2.5s" 
+                     repeatCount="indefinite" />
+        </path>
+        
+        <!-- Path 3 -->
+        <path d="M400,350 C400,400 350,450 300,460" 
+              stroke="url(#circuitGradient)" 
+              stroke-width="3" 
+              stroke-dasharray="5,5"
+              fill="none">
+            <animate attributeName="stroke-dashoffset" 
+                     values="0;20" 
+                     dur="1.8s" 
+                     repeatCount="indefinite" />
+        </path>
+        
+        <!-- Path 4 -->
+        <path d="M400,350 C400,400 450,450 500,460" 
+              stroke="url(#circuitGradient)" 
+              stroke-width="3" 
+              stroke-dasharray="5,5"
+              fill="none">
+            <animate attributeName="stroke-dashoffset" 
+                     values="0;20" 
+                     dur="2.2s" 
+                     repeatCount="indefinite" />
+        </path>
+        
+        <!-- Path 5 -->
+        <path d="M400,350 C400,300 400,250 400,200" 
+              stroke="url(#circuitGradient)" 
+              stroke-width="3" 
+              stroke-dasharray="5,5"
+              fill="none">
+            <animate attributeName="stroke-dashoffset" 
+                     values="0;20" 
+                     dur="1.5s" 
+                     repeatCount="indefinite" />
+        </path>
+        
+        <!-- Path 6 -->
+        <path d="M400,350 C400,400 400,450 400,500" 
+              stroke="url(#circuitGradient)" 
+              stroke-width="3" 
+              stroke-dasharray="5,5"
+              fill="none">
+            <animate attributeName="stroke-dashoffset" 
+                     values="0;20" 
+                     dur="1.7s" 
+                     repeatCount="indefinite" />
+        </path>
+        
+        <!-- Neural Nodes -->
+        <!-- Node 1 -->
+        <circle cx="250" cy="300" r="8" fill="url(#circuitGradient)">
+            <animate attributeName="opacity" 
+                     values="0.7;1;0.7" 
+                     dur="3s" 
+                     repeatCount="indefinite" />
+        </circle>
+        
+        <!-- Node 2 -->
+        <circle cx="550" cy="300" r="8" fill="url(#circuitGradient)">
+            <animate attributeName="opacity" 
+                     values="0.7;1;0.7" 
+                     dur="2.5s" 
+                     repeatCount="indefinite" />
+        </circle>
+        
+        <!-- Node 3 -->
+        <circle cx="300" cy="460" r="8" fill="url(#circuitGradient)">
+            <animate attributeName="opacity" 
+                     values="0.7;1;0.7" 
+                     dur="2.8s" 
+                     repeatCount="indefinite" />
+        </circle>
+        
+        <!-- Node 4 -->
+        <circle cx="500" cy="460" r="8" fill="url(#circuitGradient)">
+            <animate attributeName="opacity" 
+                     values="0.7;1;0.7" 
+                     dur="3.2s" 
+                     repeatCount="indefinite" />
+        </circle>
+        
+        <!-- Node 5 -->
+        <circle cx="400" cy="200" r="8" fill="url(#circuitGradient)">
+            <animate attributeName="opacity" 
+                     values="0.7;1;0.7" 
+                     dur="2.7s" 
+                     repeatCount="indefinite" />
+        </circle>
+        
+        <!-- Node 6 -->
+        <circle cx="400" cy="500" r="8" fill="url(#circuitGradient)">
+            <animate attributeName="opacity" 
+                     values="0.7;1;0.7" 
+                     dur="2.9s" 
+                     repeatCount="indefinite" />
+        </circle>
+        
+        <!-- Pulse Effects -->
+        <circle cx="400" cy="350" r="30" fill="url(#brainGradient)" fill-opacity="0.2">
+            <animate attributeName="r" 
+                     values="30;100;30" 
+                     dur="4s" 
+                     repeatCount="indefinite" />
+            <animate attributeName="fill-opacity" 
+                     values="0.2;0;0.2" 
+                     dur="4s" 
+                     repeatCount="indefinite" />
+        </circle>
+        
+        <!-- KaraAGI Text -->
+        <text x="400" y="650" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="url(#brainGradient)">
+            KaraAGI
+        </text>
+        <text x="400" y="690" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#14213d">
+            Advanced AI Agent
+        </text>
+    </g>
+</svg>

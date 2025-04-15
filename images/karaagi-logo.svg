@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>KaraAGI Logo</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="logoGradient">
+            <stop stop-color="#3a86ff" offset="0%"></stop>
+            <stop stop-color="#8338ec" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="accentGradient">
+            <stop stop-color="#ff006e" offset="0%"></stop>
+            <stop stop-color="#8338ec" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Outer Circle -->
+        <circle cx="250" cy="250" r="200" stroke="url(#logoGradient)" stroke-width="10" fill-opacity="0.05" fill="url(#logoGradient)">
+            <animate attributeName="stroke-width" values="10;15;10" dur="3s" repeatCount="indefinite" />
+        </circle>
+        
+        <!-- Inner Circle -->
+        <circle cx="250" cy="250" r="150" stroke="url(#accentGradient)" stroke-width="5" fill-opacity="0.1" fill="url(#accentGradient)">
+            <animate attributeName="stroke-width" values="5;8;5" dur="2.5s" repeatCount="indefinite" />
+        </circle>
+        
+        <!-- Brain Symbol -->
+        <path d="M250,150 C200,150 160,180 160,230 C160,280 200,310 250,310 C300,310 340,280 340,230 C340,180 300,150 250,150 Z" 
+              stroke="url(#logoGradient)" 
+              stroke-width="6" 
+              fill-opacity="0.2"
+              fill="url(#logoGradient)">
+        </path>
+        
+        <!-- Brain Lobes -->
+        <path d="M250,170 C210,170 180,190 180,230 C180,270 210,290 250,290 C290,290 320,270 320,230 C320,190 290,170 250,170 Z" 
+              stroke="url(#logoGradient)" 
+              stroke-width="3" 
+              fill-opacity="0.1"
+              fill="url(#logoGradient)">
+        </path>
+        
+        <!-- Neural Connections -->
+        <path d="M250,230 C230,210 200,220 180,230" 
+              stroke="url(#accentGradient)" 
+              stroke-width="3" 
+              stroke-dasharray="5,5"
+              fill="none">
+            <animate attributeName="stroke-dashoffset" values="0;20" dur="2s" repeatCount="indefinite" />
+        </path>
+        
+        <path d="M250,230 C270,210 300,220 320,230" 
+              stroke="url(#accentGradient)" 
+              stroke-width="3" 
+              stroke-dasharray="5,5"
+              fill="none">
+            <animate attributeName="stroke-dashoffset" values="0;20" dur="2.5s" repeatCount="indefinite" />
+        </path>
+        
+        <path d="M250,230 C250,250 230,270 210,280" 
+              stroke="url(#accentGradient)" 
+              stroke-width="3" 
+              stroke-dasharray="5,5"
+              fill="none">
+            <animate attributeName="stroke-dashoffset" values="0;20" dur="1.8s" repeatCount="indefinite" />
+        </path>
+        
+        <path d="M250,230 C250,250 270,270 290,280" 
+              stroke="url(#accentGradient)" 
+              stroke-width="3" 
+              stroke-dasharray="5,5"
+              fill="none">
+            <animate attributeName="stroke-dashoffset" values="0;20" dur="2.2s" repeatCount="indefinite" />
+        </path>
+        
+        <!-- Central Node -->
+        <circle cx="250" cy="230" r="12" fill="url(#accentGradient)">
+            <animate attributeName="r" values="12;15;12" dur="2s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite" />
+        </circle>
+        
+        <!-- Neural Nodes -->
+        <circle cx="180" cy="230" r="6" fill="url(#accentGradient)">
+            <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite" />
+        </circle>
+        
+        <circle cx="320" cy="230" r="6" fill="url(#accentGradient)">
+            <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite" />
+        </circle>
+        
+        <circle cx="210" cy="280" r="6" fill="url(#accentGradient)">
+            <animate attributeName="opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite" />
+        </circle>
+        
+        <circle cx="290" cy="280" r="6" fill="url(#accentGradient)">
+            <animate attributeName="opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite" />
+        </circle>
+        
+        <!-- Text -->
+        <text x="250" y="370" font-family="Arial, sans-serif" font-size="60" font-weight="bold" text-anchor="middle" fill="url(#logoGradient)">
+            KaraAGI
+        </text>
+    </g>
+</svg>
